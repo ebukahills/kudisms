@@ -1,6 +1,6 @@
 {
   "name": "kudisms",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "API wrapper for Kudi bulk sms service for NodeJS & the Browser",
   "main": "index.js",
   "scripts": {
