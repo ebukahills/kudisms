@@ -1,0 +1,29 @@
+{
+  "name": "kudisms",
+  "version": "1.0.0",
+  "description": "API wrapper for Kudi bulk sms service for NodeJS & the Browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyg101/kudisms.git"
+  },
+  "keywords": [
+    "sms",
+    "api",
+    "kudi",
+    "nigeria"
+  ],
+  "author": "Ebuka Hills",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flyg101/kudisms/issues"
+  },
+  "homepage": "https://github.com/flyg101/kudisms#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "naija-phone-number": "^1.0.2"
+  }
+}
