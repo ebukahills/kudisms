@@ -12,13 +12,12 @@ var KudiSms = require('kudisms')
 var kudi = new KudiSms(KUDI_USERNAME, KUDI_PASSWORD, SENDER_ID)
 
 // Send SMS
-kudi.sendSms(numbers, message).then().catch()
-
+kudi.sendSms(numbers, message).then(...).catch(...)
 // numbers: String || [String]
 // message: String
 
 // Check SMS Balance
-kudi.sendSms().then().catch()
+kudi.checkBalance().then(...).catch(...)
 
 // Set Custom Options
 kudi.setOptions({
